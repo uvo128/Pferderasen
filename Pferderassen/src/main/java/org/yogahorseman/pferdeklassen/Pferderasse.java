@@ -23,6 +23,8 @@ public class Pferderasse {
 	 */
 	
 	// Attributes
+	private String rassenname;	
+
 	private String kathegorie;
 	
 	private String stockmass;
@@ -33,6 +35,14 @@ public class Pferderasse {
 	
 	
 	// getter and setter Methoden
+	
+	public String getRassenname() {
+		return rassenname;
+	}
+
+	public void setRassenname(String rassenname) {
+		this.rassenname = rassenname;
+	}
 	
 	public String getKathegorie() {
 		return kathegorie;
@@ -67,6 +77,11 @@ public class Pferderasse {
 	}
 
 	
+	
+	// to string
+	public String toString() {
+		return "Pferderasse:\n Rassenname: "+ rassenname +"\n Kategorie: "+ kathegorie ;
+	}
 	
 	
 
