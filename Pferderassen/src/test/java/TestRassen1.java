@@ -1,7 +1,7 @@
 import org.yogahorseman.pferdeklassen.Pferderasse;
 
 /**
- * Test von besispielhaftem Inhalt für Pferderassen
+ * Test von besispielhaftem Inhalt fÃ¼r Pferderassen
  * 
  * 
  * @author Ulrich
@@ -13,9 +13,9 @@ public class TestRassen1 {
 		
 		Pferderasse pferderasse = new Pferderasse();
 		pferderasse.setRassenname("Achal Tekkiner");
-		pferderasse.setKathegorie("Warmblüter");
+		pferderasse.setKathegorie("WarmblÃ¼ter");
 		
-		
+		System.out.println("Bisherige Pferderassen");
 		
 		System.out.println(pferderasse);
 		
