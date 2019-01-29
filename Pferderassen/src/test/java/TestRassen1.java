@@ -19,6 +19,8 @@ public class TestRassen1 {
 		
 		System.out.println(pferderasse);
 		
+		System.out.println("done");
+		
 
 	}
 
