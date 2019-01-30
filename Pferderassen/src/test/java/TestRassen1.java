@@ -13,7 +13,7 @@ public class TestRassen1 {
 		
 		Pferderasse pferderasse = new Pferderasse();
 		pferderasse.setRassenname("Achal Tekkiner");
-		pferderasse.setKathegorie("WarmblÃ¼ter");
+		pferderasse.setKathegorie("Warmblüter");
 		
 		System.out.println("Bisherige Pferderassen");
 		
