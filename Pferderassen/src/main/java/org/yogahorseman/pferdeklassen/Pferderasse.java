@@ -65,7 +65,10 @@ public class Pferderasse {
 	
 	// to string
 	public String toString() {
-		return "Pferderasse:\n Rassenname: "+ rassenname +"\n Kategorie: "+ kathegorie + "\n Ursprung: "+ursprung;
+		return "Pferderasse:\n Rassenname: "+ rassenname +"\n Kategorie: "+ kathegorie + 
+			"\n Stockmaß: "+stockmass+"\n Farbe:"+farbe+"\n Ursprung: "+ursprung;
+		
+				
 	}
 	
 	
