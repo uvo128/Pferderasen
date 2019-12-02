@@ -1,3 +1,7 @@
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -26,8 +30,21 @@ public class TestWesternPferde {
 			System.out.println(pferderasse);
 		}
 		
+		//inner anonymous class 
+		Comparator<String> compareHorseNameLength = new Comparator<String>() {
+
+			public int compare(String o1, String o2) {
+					return o1.length() - o2.length();
+			}
+		};
 		
+		List<String> pferdeRassenNamen = Arrays.asList(pferderassen.get(0).getRassenname(),pferderassen.get(1).getRassenname());
 		
+		System.out.println(pferdeRassenNamen);
+		
+		Collections.sort(pferdeRassenNamen, compareHorseNameLength);
+		
+		System.out.println(pferdeRassenNamen);
 		
 
 	}
